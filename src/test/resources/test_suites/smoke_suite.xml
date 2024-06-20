@@ -6,7 +6,7 @@
         </listeners>
 
 
-    <test verbose="2" preserve-order="true" name="C:/Ayzada/DemoQaWinter24">
+    <test verbose="2" preserve-order="true" name="C:\Ayzada\DemoQaWinter24">
         <classes>
             <class name="alerts_tests.ButtonsTest"></class>
             <class name="alerts_tests.FrameTest"></class>
