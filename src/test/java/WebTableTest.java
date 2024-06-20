@@ -1,5 +1,3 @@
-package alerts_tests;
-
 import com.demoqa.entities.Employee;
 import org.testng.Assert;
 import org.testng.annotations.Test;

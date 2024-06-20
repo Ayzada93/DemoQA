@@ -1,5 +1,3 @@
-package alerts_tests;
-
 import com.demoqa.drivers.DriverManager;
 import com.demoqa.helper.AlertHelper;
 import com.demoqa.helper.BrowserHelper;

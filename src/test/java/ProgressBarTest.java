@@ -1,5 +1,3 @@
-package alerts_tests;
-
 import com.demoqa.drivers.DriverManager;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

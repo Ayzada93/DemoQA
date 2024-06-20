@@ -1,4 +1,3 @@
-package alerts_tests;
 import com.demoqa.enums.Endpoints;
 import com.demoqa.utils.ConfigReader;
 import io.qameta.allure.*;

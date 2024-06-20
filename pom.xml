@@ -36,7 +36,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
-            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
@@ -44,7 +43,6 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
-
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -101,7 +99,6 @@
 
     </dependencies>
 
-
     <build>
         <plugins>
             <plugin>
@@ -114,7 +111,6 @@
                     <!--suppress UnresolvedMavenProperty -->
                     <target>9</target>
                 </configuration>
-
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -127,9 +123,9 @@
                     <!--                    <reuseForks>true</reuseForks>-->
                     <!--                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>E2E_suite.xml</suiteXmlFile>
-                        <suiteXmlFile>regression_suite.xml</suiteXmlFile>
                         <suiteXmlFile>smoke_suite.xml</suiteXmlFile>
+                        <suiteXmlFile>regression_suite.xml</suiteXmlFile>
+                        <suiteXmlFile>E2E_suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <!-- java heap size = Xms2048m = 2GB -->

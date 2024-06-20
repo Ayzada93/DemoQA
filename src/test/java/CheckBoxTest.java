@@ -1,5 +1,3 @@
-package alerts_tests;
-
 import org.testng.annotations.Test;
 
 public class CheckBoxTest extends BaseTest {

@@ -3,9 +3,9 @@
 <suite name="E2E suite">
     <test verbose="2" preserve-order="true" name="C:/Ayzada/DemoQaWinter24">
         <classes>
-            <class name="alerts_tests.ButtonsTest"></class>
-            <class name="alerts_tests.FrameTest"></class>
-            <class name="alerts_tests.PracticeFormTest"></class>
+            <class name="ButtonsTest"></class>
+            <class name="FrameTest"></class>
+            <class name="PracticeFormTest"></class>
 
         </classes>
 

@@ -1,5 +1,3 @@
-package alerts_tests;
-
 import com.demoqa.helper.DropDownHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
