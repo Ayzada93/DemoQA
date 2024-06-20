@@ -169,7 +169,7 @@
 
     <profiles>
         <profile>
-            <id>Smoke</id>
+            <id>Smoketest</id>
             <build>
                 <plugins>
                     <plugin>
