@@ -1,4 +1,5 @@
 import org.testng.annotations.Test;
+@Listeners(com.demoqa.listener.ScreenshotListener.class)
 
 public class PracticeFormTest extends BaseTest {
     @Test
