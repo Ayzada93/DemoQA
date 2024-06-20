@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke suite">
+        <listeners>
+       <listener class-name="com.demoqa.listener.ScreenshotListener"></listener>
+        </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="C:/Ayzada/DemoQaWinter24">
+        <classes>
+            <class name="alerts_tests.ButtonsTest"></class>
+            <class name="alerts_tests.FrameTest"></class>
+            <class name="alerts_tests.PracticeFormTest"></class>
+            
+            </classes>
+
+    </test>
+</suite>
