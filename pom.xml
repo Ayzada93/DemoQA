@@ -36,7 +36,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
-            <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
@@ -86,14 +85,12 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
-   <dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-reload4j</artifactId>
-    <version>1.7.35</version> <!-- Укажите актуальную версию -->
-    <scope>runtime</scope>
-    </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.35</version>
+        </dependency>
 
-         
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
@@ -101,7 +98,6 @@
         </dependency>
 
     </dependencies>
-
 
     <build>
         <plugins>
@@ -115,7 +111,6 @@
                     <!--suppress UnresolvedMavenProperty -->
                     <target>9</target>
                 </configuration>
-
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -128,9 +123,9 @@
                     <!--                    <reuseForks>true</reuseForks>-->
                     <!--                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>E2E_suite.xml</suiteXmlFile>
-                        <suiteXmlFile>regression_suite.xml</suiteXmlFile>
                         <suiteXmlFile>smoke_suite.xml</suiteXmlFile>
+                        <suiteXmlFile>regression_suite.xml</suiteXmlFile>
+                        <suiteXmlFile>E2E_suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <!-- java heap size = Xms2048m = 2GB -->
