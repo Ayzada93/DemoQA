@@ -32,7 +32,8 @@ public class AlertTest extends BaseTest {
     }
     @Test(groups = {"Regression", "API", "1722"}, description = "Alert Test1")
     void alertTest1() {
-                driver.get("https://demoqa.com/alerts");
+                WebDriverManager.chromiumdriver().setup();
+          WebDriver driver = new ChromeDriver();
                 webElementActions.click(demoQaPages.getAlertPage().confirmAlertButton);
                 alertHelper.acceptAlert();
                 driver.get("asdas");
@@ -40,7 +41,8 @@ public class AlertTest extends BaseTest {
             }
     @Test(groups = {"E2E", "SQL", "1723"}, description = "Alert Test2")
     void alertTest2() {
-        driver.get("https://demoqa.com/alerts");
+         WebDriverManager.chromiumdriver().setup();
+          WebDriver driver = new ChromeDriver();
         webElementActions.click(demoQaPages.getAlertPage().confirmAlertButton);
         alertHelper.acceptAlert();
 
