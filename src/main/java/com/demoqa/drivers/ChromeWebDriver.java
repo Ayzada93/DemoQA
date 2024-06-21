@@ -18,7 +18,7 @@ import static com.demoqa.utils.ConfigReader.getValue;
 public class ChromeWebDriver {
 
     public static WebDriver loadChromeDriver() {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromiumdriver().setup();
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
