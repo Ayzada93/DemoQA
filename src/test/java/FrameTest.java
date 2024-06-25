@@ -8,8 +8,7 @@ public class FrameTest extends BaseTest {
     @Test(description = "Verify that driver can switch to another frame")
     public  void doubleClickTest(){
 
- WebDriverManager.chromiumdriver().setup();
-        WebDriver driver = new ChromeDriver();
+
         
         browserHelper.open(ConfigReader.getValue("baseDEVURL")+ Endpoints.FRAMES.getEndpoint());
         iframeHelper.switchToFrame("frame1");
