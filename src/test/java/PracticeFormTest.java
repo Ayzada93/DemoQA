@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 public class PracticeFormTest extends BaseTest {
     @Test
     public void test123() throws InterruptedException {
- WebDriverManager.chromiumdriver().setup();
-        WebDriver driver = new ChromeDriver();
 
         
         browserHelper.open("https://demoqa.com/automation-practice-form");
