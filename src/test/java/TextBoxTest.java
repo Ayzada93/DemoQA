@@ -8,8 +8,7 @@ public class TextBoxTest extends BaseTest {
     @Test
     public void textBoxTest() throws InterruptedException {
 
-         WebDriverManager.chromiumdriver().setup();
-        WebDriver driver = new ChromeDriver();
+        
         driver.get("https://demoqa.com/text-box");
         TextBoxEntity textBoxEntity=randomUtils.generateRandomTextBoxEntity();
         demoQaPages.getTextBoxPage().fillUpTextBoxForm(textBoxEntity);
